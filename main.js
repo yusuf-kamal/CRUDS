@@ -39,7 +39,7 @@ function displayData() {
     var content = ``
     for (let i = 0; i < producontainer.length; i++) {
         content += `<tr>
-        <td>${[i]}</td>
+        <td>${[i+1]}</td>
 
         <td>${producontainer[i].name}</td>
         <td>${producontainer[i].price}</td>
